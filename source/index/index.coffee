@@ -1,5 +1,7 @@
 import Modules from "./allmodules"
 import domconnect from "./indexdomconnect"
+import { startFingerAcademy } from "./app.js"
+
 domconnect.initialize()
 
 global.allModules = Modules
@@ -8,6 +10,7 @@ global.allModules = Modules
 appStartup = ->
     ## which modules shall be kickstarted?
     # Modules.appcoremodule.startUp()
+    startFingerAcademy()
     return
 
 ############################################################
