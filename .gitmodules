@@ -1,4 +1,0 @@
-
-[submodule "source/appjs"]
-	path = source/appjs
-	url = git@github.com:sebfried/finger.academy-app-js.git
