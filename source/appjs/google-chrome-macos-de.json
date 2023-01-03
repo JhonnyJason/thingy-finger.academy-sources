@@ -1,0 +1,49 @@
+{ 
+"source": "https://support.google.com/chrome/answer/157179?hl=de",
+"version": "0.0.1",
+"last-full-data-integrity-check": "2022-11-22",
+"shortcuts": [
+    {
+        "title": "Neues Fenster öffnen",
+        "description": "",
+        "hyperlink": "",
+        "scope": "global",
+        "shortcut": ["cmd", "n"]
+    },
+    {
+        "title": "Neues Fenster im Inkognitomodus öffnen",
+        "description": "",
+        "hyperlink": "",
+        "scope": "global",
+        "shortcut": ["cmd", "shift", "n"]
+    },
+    {
+        "title": "Neuen Tab öffnen und aufrufen",
+        "description": "",
+        "hyperlink": "",
+        "scope": "global",
+        "shortcut": ["cmd", "t"]
+    },
+    {
+        "title": "Zuvor geschlossene Tabs in der Reihenfolge öffnen, in der sie geschlossen wurden",
+        "description": "",
+        "hyperlink": "",
+        "scope": "global",
+        "shortcut": ["cmd", "shift", "t"]
+    },
+    {
+        "title": "Zum nächsten geöffneten Tab wechseln",
+        "description": "",
+        "hyperlink": "",
+        "scope": "window",
+        "shortcut": ["cmd", "opt", "right"]
+    },
+    {
+        "title": "Zum vorherigen geöffneten Tab wechseln",
+        "description": "",
+        "hyperlink": "",
+        "scope": "window",
+        "shortcut": ["cmd", "opt", "left"]
+    }
+]
+}
