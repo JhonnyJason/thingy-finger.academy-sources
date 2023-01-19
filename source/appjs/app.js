@@ -9,10 +9,9 @@ export function initialize() {
 export function startFingerAcademy() {
 
   // config
-  const pathToShortcutsFile = 'json/google-chrome-macos-de.json';
-  const pathToKeyboardFile = 'json/macbook-keyboard-de.json';
+  // const pathToShortcutsFile = 'json/google-chrome-macos-de.json';
+  // const pathToKeyboardFile = 'json/macbook-keyboard-de.json';
   const localhostDev = 'localhost:3000';
-  const pathToErrorPage = 'error.html';
   const errorHandlerEnabled = true;
 
   // user
@@ -54,19 +53,19 @@ export function startFingerAcademy() {
     // try to fetch the json files and start the quiz
     try {
 
-      // define fetch timeout
-      const fetchTimeout = 5000;
+      // // define fetch timeout
+      // const fetchTimeout = 5000;
 
-      // create multiple promises to fetch the files in parallel
-      const JSONPromises = [
+      // // create multiple promises to fetch the files in parallel
+      // const JSONPromises = [
 
-        // fetch the json data files
-        fetch(pathToShortcutsFile, {timeout: fetchTimeout}),
-        fetch(pathToKeyboardFile, {timeout: fetchTimeout})
-      ];
+      //   // fetch the json data files
+      //   fetch(pathToShortcutsFile, {timeout: fetchTimeout}),
+      //   fetch(pathToKeyboardFile, {timeout: fetchTimeout})
+      // ];
 
-      // wait for all promises to resolve
-      const JSONResponses = await Promise.all(JSONPromises);
+      // // wait for all promises to resolve
+      // const JSONResponses = await Promise.all(JSONPromises);
 
       // parse the json data
       //   const shortcutsJSONResponse = await JSONResponses[0].json();

@@ -44,6 +44,90 @@
         "hyperlink": "",
         "scope": "window",
         "shortcut": ["cmd", "opt", "left"]
+    },
+    {
+        "title": "Zum ersten Tab wechseln",
+        "description": "",
+        "hyperlink": "",
+        "scope": "window",
+        "shortcut": ["cmd", "1"]
+    },
+    {
+        "title": "Zum dritten Tab wechseln",
+        "description": "",
+        "hyperlink": "",
+        "scope": "window",
+        "shortcut": ["cmd", "3"]
+    },
+    {
+        "title": "Zum letzten Tab in der Reihe wechseln",
+        "description": "",
+        "hyperlink": "",
+        "scope": "window",
+        "shortcut": ["cmd", "9"]
+    },
+    {
+        "title": "Vorherige Seite aus dem Browserverlauf im aktuellen Tab öffnen",
+        "description": "",
+        "hyperlink": "",
+        "scope": "tab",
+        "shortcut": ["cmd", "left"]
+    },
+    {
+        "title": "Nächste Seite aus dem Browserverlauf im aktuellen Tab öffnen",
+        "description": "",
+        "hyperlink": "",
+        "scope": "tab",
+        "shortcut": ["cmd", "right"]
+    },
+    {
+        "title": "Aktuellen Tab oder aktuelles Pop-up schließen",
+        "description": "",
+        "hyperlink": "",
+        "scope": "tab",
+        "shortcut": ["cmd", "w"]
+    },
+    {
+        "title": "Aktuelles Fenster schließen",
+        "description": "",
+        "hyperlink": "",
+        "scope": "window",
+        "shortcut": ["cmd", "shift", "w"]
+    },
+    {
+        "title": "Fenster minimieren",
+        "description": "",
+        "hyperlink": "",
+        "scope": "window",
+        "shortcut": ["cmd", "m"]
+    },
+    {
+        "title": "Browser ausblenden",
+        "description": "",
+        "hyperlink": "",
+        "scope": "global",
+        "shortcut": ["cmd", "h"]
+    },
+    {
+        "title": "Browser beenden",
+        "description": "",
+        "hyperlink": "",
+        "scope": "global",
+        "shortcut": ["cmd", "q"]
+    },
+    {
+        "title": "Tab nach rechts verschieben",
+        "description": "",
+        "hyperlink": "",
+        "scope": "tab",
+        "shortcut": ["ctrl", "shift", "fn", "down"]
+    },
+    {
+        "title": "Tab nach links verschieben",
+        "description": "",
+        "hyperlink": "",
+        "scope": "tab",
+        "shortcut": ["ctrl", "shift", "fn", "up"]
     }
 ]
 }
